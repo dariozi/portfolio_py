@@ -4,7 +4,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo2.png", width=400)
+    st.image("images/photo2.jpeg", width=600)
 
 with col2:
     st.title("Dario Zignale")
@@ -18,3 +18,5 @@ with col2:
     My interests reflect a balanced blend of analytical skills and a well-rounded personality.
     """
     st.info(content)
+
+st.write("Below you can find some of the apps i have built in Python. Feel free to contact me!")
