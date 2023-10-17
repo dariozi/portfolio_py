@@ -1,5 +1,5 @@
 import streamlit as st
-
+import send_emails
 import os
 st.header("Contact Me")
 
@@ -12,7 +12,7 @@ Subject: New Email from {user_email}
 From: {user_email}
 {raw_message}
 """
-    button = st.form_submit_button("Press here")
+    button = st.form_submit_button("Send")
     if button:
         send_emails.send_email(message)
         st.info("Email was sent successfully")
