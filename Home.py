@@ -47,3 +47,4 @@ with col4:
         st.write(row["description"])
         st.image("images/" + row["image"], width=400)
         st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Try the app]({row['deployed_link']}")
