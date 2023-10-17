@@ -3,7 +3,7 @@ import os
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465
-    username = "USERNAME"
+    username = "EMAILSENDER"
 
     password= os.getenv("PASSWORD_EMAIL")
 
