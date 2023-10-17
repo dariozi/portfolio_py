@@ -40,6 +40,11 @@ with col3:
         st.write(row["description"])
         st.image("images/" + row["image"], width=400)
         st.write(f"[Source Code]({row['url']})")
+        if row['deployed_link'] == "not_available":
+            st.write("")
+        else:
+            st.write(f"[Try the app]({row['deployed_link']})")
+
 
 with col4:
     for index, row in df[10:].iterrows():
@@ -47,4 +52,7 @@ with col4:
         st.write(row["description"])
         st.image("images/" + row["image"], width=400)
         st.write(f"[Source Code]({row['url']})")
-        st.write(f"[Try the app]({row['deployed_link']}")
+        if row['deployed_link'] == "not_available":
+            st.write("")
+        else:
+            st.write(f"[Try the app]({row['deployed_link']})")
