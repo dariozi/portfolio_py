@@ -4,14 +4,14 @@ import pandas
 
 st.set_page_config(layout="wide")
 st.title("Dario Zignale")
-col1, col2 = st.columns([1.5, 3.5])
+col1,empty, col2 = st.columns([1.5,0.5, 3.5])
 
 st.divider()
 st.write("Below you can find some of the apps i have built in Python. Feel free to contact me!")
 st.divider()
 
 with col1:
-    st.image("images/photo2.jpeg", width=400,)
+    st.image("images/photo2.jpeg", use_column_width="auto" )
 
 with col2:
 
