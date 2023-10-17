@@ -1,8 +1,8 @@
 title;description;url;image;deployed_link;
 Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/dariozi/my-todo-webapp;1.png;https://dariozi-my-todo-webapp-web-3ajtwg.streamlit.app;
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/dariozi/portfolio_py;2.png;not_available;
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://pythonhow.com;3.png;not_available;
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://pythonhow.com;4.png;not_available;
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/dariozi/Generate-PDF-Documents;3.png;not_available;
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/dariozi/Generate-PDF-Invoices-from-Excel;4.png;not_available;
 Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;https://pythonhow.com;5.png;not_available;
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;6.png;not_available;
 Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png;not_available;
